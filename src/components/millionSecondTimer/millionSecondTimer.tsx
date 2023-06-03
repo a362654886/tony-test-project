@@ -54,7 +54,9 @@ const MillionSecondTimer: FC<SecondTimeComponentProps> = (props) => {
 
   return (
     <>
-      <p>Million Second Timer: {getTime(time)}</p>
+      <p data-testid="MillionSecondTimerText">
+        Million Second Timer: {getTime(time)}
+      </p>
     </>
   );
 };

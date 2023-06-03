@@ -54,8 +54,8 @@ const SecondTimeComponent: FC<SecondTimeComponentProps> = (props) => {
 
   return (
     <>
-      <p>
-        Second Timer:{" "}
+      <p data-testid="SecondTimerText">
+        Second Timer:
         {Math.floor(getTimeDiff(countTime, startTime, 1000)).toFixed(2)}
       </p>
     </>
