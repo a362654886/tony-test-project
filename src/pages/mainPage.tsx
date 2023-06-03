@@ -70,7 +70,11 @@ const MainPage: FC = () => {
         countState={countState}
         sendNewItemOfFiveTimes={(time) => resetFiveTimesLog(time)}
       />
-      <Button id={"endButton"} onMouseDown={() => setCountState(true)}>
+      <Button
+        data-testid="SecondTimerText"
+        id={"endButton"}
+        onMouseDown={() => setCountState(true)}
+      >
         {countState ? "End" : "Start"}
       </Button>
       <>
