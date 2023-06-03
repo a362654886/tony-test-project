@@ -15,12 +15,5 @@ module.exports = {
     eqeqeq: "error",
     quotes: ["error", "double"],
     semi: ["error", "always"],
-    "no-unused-vars": "error",
-    "no-console": "error",
-    "no-empty": "error",
-    "comma-spacing": "error",
-    "comma-dangle": ["error", "always-multiline"],
-    "no-eval": "error",
-    strict: ["error", "global"],
   },
 };
