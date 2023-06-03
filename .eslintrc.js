@@ -11,7 +11,6 @@ module.exports = {
   },
   extends: ["eslint:recommended"],
   rules: {
-    "no-var": "error",
     eqeqeq: "error",
     quotes: ["error", "double"],
     semi: ["error", "always"],
