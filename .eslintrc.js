@@ -10,9 +10,5 @@ module.exports = {
     sourceType: "module",
   },
   extends: ["eslint:recommended"],
-  rules: {
-    eqeqeq: "error",
-    quotes: ["error", "double"],
-    semi: ["error", "always"],
-  },
+  rules: {},
 };
