@@ -71,7 +71,7 @@ const MainPage: FC = () => {
         sendNewItemOfFiveTimes={(time) => resetFiveTimesLog(time)}
       />
       <Button
-        data-testid="SecondTimerText"
+        data-testid="MainButton"
         id={"endButton"}
         onMouseDown={() => setCountState(true)}
       >
